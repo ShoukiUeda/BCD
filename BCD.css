@@ -33,8 +33,12 @@ h1 {
     background: #fcfcfc;/*背景色*/
     padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
     border: solid 3px rgb(44, 46, 179);/*線の種類 太さ 色*/
+	  
   }
   
+.nyancat{
+	list-style:"🐈";
+}
   ul li, ol li {
     line-height: 1.5; /*文の行高*/
     padding: 0.5em 0; /*前後の文との余白*/
