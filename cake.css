@@ -1,0 +1,32 @@
+img{
+    width:100%;
+}
+#one {
+    background-color: #F78486;
+    width: 200px;
+    height: 200px;
+    float:left;
+}
+#two {
+    background-color: #FFF616;
+    width: 300px;
+    height: 200px;
+    float:right;
+}
+#three {
+    color: #F8060A;
+    border: thick solid #48EF41;
+    width: 500px;
+    height: 100px;
+    float:left;
+}
+}
+#bigbox {
+    width:500px;
+    height: 300px;
+}
+.cakes{
+    background-color:#88fc04;
+    float:left;
+    width:50%;
+}
