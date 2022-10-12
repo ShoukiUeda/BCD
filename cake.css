@@ -26,13 +26,24 @@ img{
     height: 300px;
 }
 .cakes{
-    background-color:#88fc04;
+    background-color:#d3ffa3;
     float:left;
     width:35%;
 }
 .right{
-    background-color:rgb(71, 178, 39);
-    width:30%;
+    border:thick solid rgb(71, 178, 39);
+    width:28%;
     height:600px;
     float:right;
+}
+h1{
+    position: relative;
+    padding:0.25em 0;
+}
+h1:after{
+    content:"";
+    display:block;
+    height:4px;
+    background:-webkit-linear-gradient(to right,#48EF41,transparent);
+    background:linear-gradient(to right,#F78486,transparent);
 }
