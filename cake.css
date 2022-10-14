@@ -39,8 +39,10 @@ img{
 h1{
     position: relative;
     padding:0.25em 0;
+    font-size:200%;
 }
 h1:after{
+
     content:"";
     display:block;
     height:4px;
