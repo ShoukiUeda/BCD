@@ -1,0 +1,39 @@
+ul.ddmenu{
+    margin:0px;
+    padding:0px 0px 0px 15px;
+    background-color: #38c718;
+}
+
+ul.ddmenu li{
+    width:125px; /*メニュー項目の横幅*/
+    display:inline-block; /*横並びに配置*/
+    list-style-type:none;
+    position:relative;
+}
+
+ul.ddmenu a{
+    background-color:#cc0000;
+    color:white;
+    line-height:40px;
+    text-align:center;
+    text-decoration:nonel
+    font-weight bold;
+    display:block;
+}
+
+ul.ddmenu ul{
+    display:none;
+    margin:0px;
+    padding:0px;
+    position:absolute;
+
+}
+
+ul.ddmenu a:hover{
+    background-color:#ffdddd;
+    color:#dd0000;
+}
+
+ul.ddmenu li:hover ul{
+    display:block;
+}
